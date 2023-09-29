@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>NASA LOLA Moon LiDAR - Hobu</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="NASA LOLA Moon LiDAR"/>
+            <meta property="og:url" content="/moon.html"/>
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <img height=50% width=50%" src="/theme/images/hobulogo.png" />
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+    <section id="content" class="body">
+        
+        <div class="entry-content">
+            <div class="section" id="what-is-this">
+<h2>What is this?</h2>
+<p>This is a visualization of the nearly six billion measurement points of the
+&lt;NASA LOLA mission &lt;<a class="reference external" href="https://lunar.gsfc.nasa.gov/lola/">https://lunar.gsfc.nasa.gov/lola/</a>&gt;`__. LOLA was launched
+to capture high fidelity topographic modeling of the moon's surface to support
+things like data alignment and deciding where to land :)</p>
+</div>
+<div class="section" id="why-is-lola-data-a-point-cloud">
+<h2>Why is LOLA data a point cloud?</h2>
+<p>LOLA data was captured by a polar orbiting laser altimeter. Think of it like
+the range finder you would use to measure how far away the hole is from
+your current position at a golf course, except you press the button six
+billion times, save the position from where you are measuring,  save every
+distance measurement on a hard drive, and then phone that data back to earth.</p>
+</div>
+<div class="section" id="who-is-hobu">
+<h2>Who is Hobu?</h2>
+<p><a class="reference external" href="https://hobu.co">Hobu, Inc.</a> is a software consultancy in Iowa City, Iowa
+that has been writing open source software for point cloud data management
+for more than fifteen years. Along with <a class="reference external" href="https://hobu.co">PDAL</a>, we developed
+the <a class="reference external" href="https://copc.io">COPC</a> specification to allow applications to optionally stream
+point cloud data using the most commonly available LAZ geospatial point cloud
+format.</p>
+</div>
+<div class="section" id="who-made-this-website">
+<h2>Who made this website?</h2>
+<p>Connor Manning of Hobu, who led development of <a class="reference external" href="https://entwine.io">Entwine</a> and
+COPC, developed a point cloud visualization and exploration interface based on
+CesiumJS called <a class="reference external" href="https://eptium.com">Eptium</a>. <a class="reference external" href="https://moonlidar.com">moonlidar.com</a>
+is an interface for exploring the global LOLA data in its entirety.</p>
+</div>
+<div class="section" id="why-did-you-do-this">
+<h2>Why did you do this?</h2>
+<p>To see if we could ;)</p>
+<p>Also, other global LiDAR datasets that are much larger in scope, such as
+<a class="reference external" href="https://icesat-2.gsfc.nasa.gov/">ICESat-2</a> have similar data management
+challenges as LOLA. The lessons we've learned from building visualization
+and query capabilities with COPC for this dataset apply to those
+larger, richer datasets as well.</p>
+</div>
+<div class="section" id="where-can-i-find-out-more">
+<h2>Where can I find out more?</h2>
+<p>Connor will be presenting about this at <a class="reference external" href="https://foss4gna.org">FOSS4GNA 2023</a> on October 25th, 2023 in Baltimore, Maryland. See
+<a class="reference external" href="https://whova.com/embedded/session/o1YpY82NroS%40g96BXSdjSFqD1guuzvqH%40nHM-IGs2hA%3D/3297647/?widget=primary">here</a>
+for the abstract.</p>
+</div>
+<div class="section" id="is-eptium-open-source-too">
+<h2>Is Eptium open source too?</h2>
+<p>Nope.</p>
+<p>Visit <a class="reference external" href="https://hobu.co/copc-viewer.html">https://hobu.co/copc-viewer.html</a> to
+find out more about how your organization can license Eptium to build its
+own point cloud data management solutions.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://pdal.io">PDAL</a></li>
+<li><a class="reference external" href="https://laspy.readthedocs.io/en/latest/">laspy</a></li>
+<li><a class="reference external" href="https://github.com/connormanning/copc.js">copc.js</a></li>
+</ul>
+</div>
+
+        </div>
+    </section>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2023 Hobu
+         </div>
+      </div>
+   </div>
+</footer>
+<script src="//code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+</body>
+</html>
