@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>COPC Viewer - Hobu</title>
+    <title>Eptium - Hobu</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
     <!-- Open Graph tags -->
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="COPC Viewer"/>
+            <meta property="og:title" content="Eptium"/>
             <meta property="og:url" content="/copc-viewer.html"/>
 
     <!-- Bootstrap -->
@@ -53,23 +53,26 @@
     <section id="content" class="body">
         
         <div class="entry-content">
-            <div class="section" id="using-the-single-page-application-at-viewer-copc-io">
-<h2>Using the single page application at viewer.copc.io</h2>
-<p>The browser-based COPC viewer at <a class="reference external" href="https://viewer.copc.io">viewer.copc.io</a>
-works really well for our applications. Can we continue to use it at that
-address with our own data?</p>
+            <div class="section" id="using-the-single-page-eptium-application-at-viewer-copc-io">
+<h2>Using the single page Eptium application at viewer.copc.io</h2>
+<p>The browser-based COPC viewer called Eptium available at <a class="reference external" href="https://viewer.copc.io">viewer.copc.io</a> works really well for our applications. Can we
+continue to use it at that address with our own data?</p>
 <p>Yes. Hobu, Inc. reserves the right to limit application access or remove the
 website entirely, as it is provided at its cost. That said, it is a single
 web page application with Hobu, Inc. branding. There is no intention of
 doing so at this time.</p>
 </div>
-<div class="section" id="accessing-the-source-code-of-viewer-copc-io">
-<h2>Accessing the source code of viewer.copc.io</h2>
-<p>Is the source code of the browser-based COPC viewer at <a class="reference external" href="https://viewer.copc.io">viewer.copc.io</a> available so I can build my own application with
-it?</p>
-<p>Yes, but not as open source. Here are the licensing options of the application
-(called Eptium):</p>
-<p><strong>Model A</strong></p>
+<div class="section" id="what-is-eptium">
+<h2>What is Eptium?</h2>
+<p>It is a React application that provides Cesium interop with COPC and COG along
+with a complete lidar point cloud interaction application that can be extended
+with your own applications. Email <a class="reference external" href="mailto:howard&#64;hobu.co">howard&#64;hobu.co</a> to find out more and to obtain
+a demo SDK to test developing with it.</p>
+</div>
+<div class="section" id="licensing-options-for-eptium">
+<h2>Licensing options for Eptium</h2>
+<p>Eptium is not open source. Here are the licensing options of the application:</p>
+<p><strong>Model A</strong> –&nbsp;Licensing the entire application</p>
 <ul class="simple">
 <li>Licensee is granted access to full source code release of the &quot;Eptium Application&quot; (viewer.copc.io)</li>
 <li>Licensee may modify, enhance, fork, improve or whatever it wants to the source to build and modify applications for its own use.</li>
@@ -77,27 +80,30 @@ it?</p>
 <li>Licensee pays a $25,000 initial purchase price to cover access to the code and any updates for a year.</li>
 <li>Licensee optionally pays $5,000/yr cost to access source code updates afterward</li>
 </ul>
-<p><strong>Model B</strong></p>
+<p><strong>Model B</strong> –&nbsp;The entire application as a binary</p>
 <ul class="simple">
 <li>Licensee is provided a minified &quot;Eptium Application&quot; (viewer.copc.io) that supports enhancements and additions such as logo, color styling, slide boxes, link sharing, etc.</li>
 <li>Licensee may not sell or distribute enhanced versions of the Eptium software development kit without entering a royalty agreement. Any attempt to do so will result in revocation of your license to use the Eptium software in part or in whole.</li>
 <li>Licensee pays $5000 first time purchase cost</li>
 <li>Licensee optionally pays $1,000/yr cost for access to continued binary updates</li>
 </ul>
+<p><strong>Model C</strong> –&nbsp;COPC, COG, and EPT data support for Cesium as a binary</p>
+<ul class="simple">
+<li>Licensee is provided a minified COPC, EPT, and COG bundled classes</li>
+<li>Licensee is provided Resium/React source components to manage data resources</li>
+<li>Perpetual usage license – no restriction, royalty, or sharing agreement required</li>
+<li>Licensee pays $5000 first time purchase cost</li>
+<li>Licensee optionally pays $1,000/yr cost for access to continued binary updates</li>
+</ul>
+<p><strong>Model D</strong> –&nbsp;COPC, COG, and EPT data support source implementations</p>
+<ul class="simple">
+<li>Licensee is provided COPC, EPT, and COG source components</li>
+<li>Licensee is provided Resium/React source components to manage data resources</li>
+<li>Perpetual usage license – no restriction, royalty, or sharing agreement required</li>
+<li>Licensee pays $25,000 first time purchase cost (credit from Model C =&gt; Model D can be applied)</li>
+<li>Licensee optionally pays $5,000/yr cost for access to continued binary updates</li>
+</ul>
 <p>Please contact <a class="reference external" href="mailto:howard&#64;hobu.co">howard&#64;hobu.co</a> for more information about licensing.</p>
-</div>
-<div class="section" id="what-is-eptium">
-<h2>What is Eptium?</h2>
-<p>It is a React application that provides Cesium interop with COPC along with a
-complete lidar point cloud interaction application that can be extended with your own
-applications. Email <a class="reference external" href="mailto:howard&#64;hobu.co">howard&#64;hobu.co</a> to find out more and to obtain a
-demo SDK to test developing with it.</p>
-</div>
-<div class="section" id="adding-copc-support-to-applications">
-<h2>Adding COPC support to applications</h2>
-<p>How do I add COPC support to my application?</p>
-<p>There are a number libraries that provide examples of how to read COPC data
-for index-accelerated access.</p>
 <ul class="simple">
 <li><a class="reference external" href="https://pdal.io">PDAL</a></li>
 <li><a class="reference external" href="https://laspy.readthedocs.io/en/latest/">laspy</a></li>
